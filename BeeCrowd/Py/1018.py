@@ -1,4 +1,5 @@
 valor = int(input())
+valori = valor
 
 n100 = 0
 n50 = 0
@@ -40,6 +41,7 @@ while True:
     else:
         break
 
+print(valori)
 print(n100,'nota(s) de R$ 100,00')
 print(n50,'nota(s) de R$ 50,00')
 print(n20,'nota(s) de R$ 20,00')
